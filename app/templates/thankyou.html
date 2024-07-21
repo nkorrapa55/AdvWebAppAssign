@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Thank You{% endblock %}
+{% block content %}
+<h1>Thank You for Registering!</h1>
+<p>Your account has been created successfully.</p>
+<div class="links">
+    <a href="{{ url_for('main.signin') }}" class="btn-primary">Sign In</a>
+</div>
+{% endblock %}
